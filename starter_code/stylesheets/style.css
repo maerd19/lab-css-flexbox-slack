@@ -5,3 +5,117 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/*Nav*/
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 15% 0 0 15%;
+      width: 60em;
+}
+
+nav img {
+      width: 30%;
+      display: block;
+}
+
+nav ul {
+    display: none;
+}
+
+/*Header*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 15%;
+    width: 55em;
+}
+
+header h1 {
+    font-size: 6em;
+    margin-bottom: 10%;
+}
+
+header .first {
+    font-size: 3.5em;
+    text-align: left;
+}
+
+header img {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: center;
+    width: 100%;
+}
+
+header button {
+    display: block;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    width: 90%;
+    background-color: #192592;
+    border-radius: 5px;
+    color: white;
+    padding: 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2em;
+    margin: 3%;
+}
+
+header .second {
+    font-size: 2.5em;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+    margin-bottom: 3%;
+}
+
+/*Main*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55em;
+    margin: 15%;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    width: 80%;
+    margin: 2em 5em;
+}
+  @media (min-width: 768px) and (max-width: 992px) {
+    * {
+      background-color: green;
+    }
+  }
+
+  @media (min-width: 993px) and (max-width: 1200px) {
+    * {
+      background-color: yellow;
+    }
+  }
+
+  @media (min-width: 1201px) {
+    * {
+      background-color: red;
+    }
+  }
