@@ -16,8 +16,8 @@ nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 15% 0 0 15%;
-      width: 60em;
+      margin: 1em;
+      width: 25em;
 }
 
 nav img {
@@ -35,17 +35,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 15%;
-    width: 55em;
+    margin: 1em;
+    width: 25em;
 }
 
 header h1 {
-    font-size: 6em;
+    font-size: 3em;
     margin-bottom: 10%;
 }
 
 header .first {
-    font-size: 3.5em;
+    font-size: 1.5em;
     text-align: left;
 }
 
@@ -69,16 +69,16 @@ header button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2em;
-    margin: 3%;
+    font-size: 1em;
+    margin: 1em;
 }
 
 header .second {
-    font-size: 2.5em;
+    font-size: 1.5em;
     order: 0;
     flex: 0 1 auto;
     align-self: center;
-    margin-bottom: 3%;
+    margin-bottom: 1em;
 }
 
 /*Main*/
@@ -87,8 +87,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 55em;
-    margin: 15%;
+    width: 25em;
+    margin: 1em;
 }
 
 main div {
@@ -103,13 +103,16 @@ main .logos {
 }
 
 main .logos h2 {
-    font-size: 4.5em;
-    margin-bottom: 10%;
+    font-size: 2em;
+    margin: 1em 0;
+    text-align: center;
 }
 
-main .logos .first {
-    font-size: 3.5em;
+main .logos .first,
+main .try .first {
+    font-size: 1.5em;
     text-align: center;
+    margin-bottom: .5em;
 }
 
 main .logos .second {
@@ -127,17 +130,18 @@ main div button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2em;
+    font-size: 1em;
     margin: 3%;
 }
 
 main .logos .discover {
     background-color: white;
     color: #192592;
+    border-color: #192592;
 }
 
 main .try {
-    margin-top: 6em;
+    margin-top: 3em;
 }
 
 main .try .start {
@@ -148,8 +152,42 @@ main .try .start {
 
 main img {
     width: 60%;
-    margin: 5em;
+    margin: 2.2em;
 }
+
+/*Footer*/
+footer {
+    margin: 1em;
+    width: 25em;
+}
+
+footer img {
+    width: 30%;
+    display: block;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .container-2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+
+footer .container-2 ul {
+    margin-right: 1em;
+}
+
+footer .container-2 li {
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+
+
   @media (min-width: 768px) and (max-width: 992px) {
     * {
       background-color: green;
